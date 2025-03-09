@@ -1,15 +1,16 @@
 @media screen and (min-width: 500px) {
     .main {
         display: flex;
-        flex-direction: column; /* mainn layout flip*/
+        flex-direction: column;
+        /* main layout flip*/
     }
 
+    /* buttons layout flip*/
     .navButtons {
-        flex-direction: row; /* buttons layout flip*/
-
-        /* custom mobile css */
+        flex-direction: row;
         display: flex;
-        flex-direction: flex-end;
+
+
     }
 
     .buttons {
@@ -27,5 +28,10 @@
         font-size: 18px;
         touch-action: manipulation;
         cursor: pointer;
+    }
+
+    .button svg {
+        height: 65px;
+        margin: auto;
     }
 }
