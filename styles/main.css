@@ -1,0 +1,146 @@
+.mainPageBody {
+    padding: 10px;
+    width: 100%;
+
+}
+
+.mainPageHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPageInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header {
+    text-align: center;
+    font-size: 60px;
+}
+.padding {
+    padding: 15px;
+}
+
+.bodyCntr {
+    background-color: rgb(255, 251, 200);
+    list-style: none;
+}
+
+.main {
+    background-color: rgb(245, 207, 213);
+    box-shadow: inset 10px 10px 10px transparent;
+    box-shadow: inset 5px 5px 5px #42270066, inset -5px -5px 5px #42270066;
+    display: flex;
+    border-radius: 15px;
+    width: 100%;
+    
+
+}
+
+/* I am adding a new navbar here, to change the look if the site to make it more modern and simplistic*/
+
+
+.mainNav {
+    background-color: #d4c1c1;
+    display: flex;
+    align-items: center;
+    max-height: 100%;
+    box-shadow: inset 5px 5px 5px #42270066, inset -5px -5px 5px #42270066; /*used https://hslpicker.com/ to soften the colour of the shadow (Very cool website)*/
+    position: relative;
+    flex-direction: column;
+    border-radius: 15px 0 0 15px;
+    float: right;
+    position: relative;
+}
+
+/* Im using @media here to make my navigation bar that is grey,
+ only shrink to a specific size untill the screen is 500px or less */
+@media screen and (max-width: 500px) {
+    .mainNav {}
+}
+
+.button {
+    background-color: #fbeee0;
+    border: 2px solid #42270066;
+    border-radius: 30px;
+    box-shadow: #42270066 4px 4px 0 0;
+    color: #42270066;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 4px 18px;
+    margin-top: 20%;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    /* this -select controls the look of the button*/
+    user-select: none;
+    /* this -select that follows specifies whether the text of an element can be selected or not*/
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button_img {
+    position: relative;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #fff;
+
+}
+
+.button:active {
+    box-shadow: #422700bb 2px 2px 0 0;
+    transform: translate(2px, 2px);
+    -webkit-transition: background-color 3s ease-in; /* to support Safari */
+    transition: background-color 3s ease-in;   
+}
+
+/* @media will assist with the compatibility on molibe devices, laptops and tablets */
+@media (min-width: 768px) {
+    .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+.roundedSvg {
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 30px;
+    letter-spacing: -3;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*This is the CSS for the Lobster font used on buttons and pages*/
+.lobster-regular {
+
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #422800;
+}
