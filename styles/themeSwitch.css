@@ -1,0 +1,25 @@
+
+.themeSwitch {
+    display: flex;
+    
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.themeSwitch svg {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.root {
+
+}
+
+.darkMode {
+
+}

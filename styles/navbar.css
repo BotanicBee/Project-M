@@ -74,9 +74,8 @@
 }
 
 /* @media will assist with the compatibility on molibe devices, laptops and tablets */
-@media (min-width: 768px) {
+@media (min-width: 640px) {
     .button-74 {
-        min-width: 120px;
         padding: 0 25px;
     }
 }

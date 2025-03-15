@@ -5,19 +5,23 @@
         /* main layout flip*/
     }
 
+
     /* buttons layout flip*/
+
+    .mainNav {
+        display: flex;
+        flex-direction: column;
+
+    }
     .navButtons {
         flex-direction: row;
         display: flex;
-
-
     }
 
     .buttons {
         margin: 0;
-        width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-grow: 1;
         justify-content: center;
         background-color: #fbeee0;
