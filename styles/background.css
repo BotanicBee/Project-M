@@ -1,0 +1,12 @@
+/* :root { 
+    --bg-image: url('https://www.google.com/search?q=pink+cat+paws+background&oq=pink+cat+paws+background&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDUxNDhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#vhid=Ju95J4RxdGGu2M&vssid=_UAzXZ-CVM-edhbIP552NuAU_46');
+  }
+  
+.padding {
+    background-image: var(--bg-image);
+  }
+
+I was trying to see if this root method works with a background image, but i need to figure out the link first.
+
+Part of project to be continued*/
+

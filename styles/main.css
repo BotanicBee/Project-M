@@ -36,17 +36,20 @@
 }
 
 .bodyCntr {
-    background-color: rgb(255, 251, 200);
+    /* background-color: rgb(255, 251, 200); */
+    background-color: var(--bg-color);
+    transition: var(--default-transition);
 }
 
 .main {
-    background-color: rgb(245, 207, 213);
+    background-color: var(--body-color);
     box-shadow: inset 10px 10px 10px transparent;
-    box-shadow: inset 5px 5px 5px #42270066, inset -5px -5px 5px #42270066;
+    box-shadow: inset 5px 5px 5px var(--bg-shadow), inset -5px -5px 5px var(--bg-shadow);
     display: flex;
     flex-direction: column;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    transition: 0.8s;
 }
 
 /* I am adding a new navbar here, to change the look if the site to make it more modern and simplistic*/
@@ -68,24 +71,17 @@
     border-radius: 50%;
 }
 
-.name {
-    font-size: 30px;
-    letter-spacing: -3;
-    color: #ffffff;
-    text-decoration: none;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 /*This is the CSS for the Lobster font used on buttons and pages*/
 .lobster-regular {
 
-    font-family: "Lobster", serif;
+    font-family: "Lobster", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
     line-height: 1.2;
-    color: #422800;
+    /* color: #422800; */
+    color: var(--pageFont-color);
+    
 }
 
 .facePhoto {
@@ -96,6 +92,7 @@
     margin-top: 30px;
 }
 
+/*This is the CSS for the Playfair Display font used on the paragraph*/
 .paragraph {
     text-decoration: none;
     font-family: 'Playfair Display';font-size: 22px;

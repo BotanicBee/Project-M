@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-theme="pastel">
 
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <title>Project M</title>
 
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="script/themeSwitch.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/responsive.css">
@@ -16,14 +17,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-</head>
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+</head>
 <!--padding is the white space around your body/creation, this space is blank to create a better looking page--> 
 <body class="padding bodyCntr">
     <main class="main">
     <!--Lets go. Creating boxes inside boxes now. mainNav is my navigation tab for my buttons for pages-->    
         <nav class="mainNav">
+            <nav class="themeSwitch">
+                <i class="fa-solid fa-ice-cream" id="iconPastel"></i>
+                <i class="fa-solid fa-moon" id="iconMoon"></i>
+            </nav>
+            <!-- <button class="themeSwitch"> I added this button under main to make it easier to place on the page -->
+                <!-- <i class="fa-solid fa-moon"></i> I have found i to use instead of img or svg. I almost prefer it a lot more and find it easier to use. -->
             <ul class="navButtons">
                 <li class="button">
                     <a href="index.html" class="button_img "> <!--index is home-->
@@ -35,6 +42,7 @@
                     <a href="about.html" class="button_img button--active">
                         <h1 class="lobster-regular"> About </h1>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve"><circle fill="#9ACCB0" cx="256" cy="256" r="256"/><path opacity=".1" d="M509.646 290.733 325.063 106.15H256V512c129.604 0 236.693-96.312 253.646-221.267z"/><path fill="#414042" d="M273.02 78.025h-34.268c-45.061 0-81.59 59.958-81.59 102.555 0 0-39.331 147.715-26.509 185.276H381.12c12.821-37.561-26.51-185.276-26.51-185.276 0-42.598-36.529-102.555-81.59-102.555z"/><path fill="#FFD0AE" d="M349.73 360.184c-74.441 0-57.833-36.507-62.884-73.06h-61.693c-5.05 36.553 11.558 73.06-62.884 73.06-47.574 0-63.807 20.847-63.807 66.709v30.9C141.903 491.754 196.585 512 256 512c59.415 0 114.097-20.245 157.537-54.207v-30.9c0-45.863-16.232-66.709-63.807-66.709z"/><path opacity=".1" d="M287.935 308.324c-.162-6.264-.377-12.73-1.271-19.2H224.97c-.89 6.439-1.107 12.877-1.269 19.114 8.926 5.721 19.539 9.159 32.185 9.159 12.581 0 23.15-3.404 32.049-9.073z"/><path fill="#FCB99F" d="m349.73 360.184-54.92 8.149-38.994-2.419-38.856 2.419-54.691-8.149c-47.574 0-63.807 20.847-63.807 66.709v30.9C141.903 491.754 196.585 512 256 512c59.415 0 114.097-20.245 157.537-54.207v-30.9c0-45.863-16.232-66.709-63.807-66.709z"/><path fill="#998379" d="M287.434 366.371h-63.232l21.896 28.781-5.859 116.395c4.989.289 10.012.453 15.074.453 5.402 0 10.761-.188 16.08-.518l-5.855-116.33 21.896-28.781z"/><path opacity=".2" d="M246.097 395.152h19.44s-4.935 1.769-9.72 1.769-9.72-1.769-9.72-1.769z"/><path fill="#E59285" d="m349.73 360.184-54.92 8.149-38.924 127.334-38.925-127.334-54.691-8.149c-47.574 0-63.807 20.847-63.807 66.709v30.9C141.903 491.754 196.585 512 256 512c59.415 0 114.097-20.245 157.537-54.207v-30.9c0-45.863-16.232-66.709-63.807-66.709z"/><path fill="#FCB99F" d="M221.297 332.181h-4.741l-29.985 25.876 32.181 45.558 37.065-37.701zM290.44 332.181h4.638l29.985 25.876-32.181 45.558-37.065-37.701z"/><ellipse fill="#FFD0AE" cx="181.004" cy="223.44" rx="13.799" ry="16.269"/><ellipse fill="#FFD0AE" cx="330.768" cy="223.44" rx="13.799" ry="16.269"/><path opacity=".1" d="m218.752 407.608 37.064-38.708 37.065 38.708 35.168-48.722-.024-.007c-1.094-.15-2.168-.31-3.202-.484l-31.941 45.22-37.065-37.701-37.064 37.701-31.941-45.22c-1.035.175-2.108.334-3.202.484l-.025.007 35.167 48.722z"/><path fill="#E59285" d="m208.261 339.34-46.175 20.844 39.215 34.968-19.333 12.456 73.918 88.059zM303.512 339.34l46.174 20.844-39.215 34.968 19.334 12.456-73.919 88.059z"/><path opacity=".1" d="m349.715 360.184-39.328 34.969 2.604 1.678 40.395-36.595c-1.206-.03-2.422-.052-3.671-.052zM161.721 360.184l39.329 34.969-2.604 1.678-40.395-36.595c1.205-.03 2.421-.052 3.67-.052zM327.625 410.204l-71.739 85.463-71.739-85.463-2.179 1.404 73.918 88.32 73.919-88.32z"/><path fill="#FFD0AE" d="M269.608 106.525h-27.445c-36.089 0-65.346 42.325-65.346 78.415 0 0 2.113 126.771 79.068 126.771s79.068-126.771 79.068-126.771c.001-36.09-29.255-78.415-65.345-78.415z"/><path fill="#414042" d="M255.886 97.858c-69.619 0-90.927 64.707-77.209 109.545 0 0 10.574-8.668 31.946-14.574 0 0-1.346-17.474 3.127-40.827-.625 22.187 4.029 39.042 4.029 39.042 10.567-2.36 23.27-4.018 38.107-4.018 51.544 0 77.208 20.378 77.208 20.378 13.719-44.837-7.589-109.546-77.208-109.546z"/><path opacity=".1" d="M255.886 187.027c-14.64 0-27.191 1.616-37.674 3.927.544 2.555.935 3.974.935 3.974 10.915-2.438 24.035-4.149 39.359-4.149 39.538 0 64.443 10.651 74.587 16.625.042-.318-.04.314 0 0-.025-.02-25.688-20.377-77.207-20.377zM213.792 161.535a149.012 149.012 0 0 1-.042-9.532c-4.474 23.353-3.127 40.827-3.127 40.827-21.346 5.898-31.918 14.552-31.944 14.573.168 1.314-.2-1.391 0 0 2.29-1.728 13.956-6.652 33.078-10.63-.001-.001-1.129-14.674 2.035-35.238zM309.11 464.449h47.779v2.267H309.11zM155.11 464.449h47.779v2.267H155.11z"/></svg>
+                    </a>
                 </li>
                 <li class="button">
                     <a href="skills.html" class="button_img">
@@ -55,6 +63,17 @@
                     </a>
                 </li>           
             </ul>
+            <button class="dropDown">
+                <i class="dropbtn" class="fa-solid fa-caret-down"></i>
+                    🐾
+                <ul class="dropDown-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </ul>
+            </button>        
         </nav>
         <section class="mainPageBody">
             <article class="mainPageHeader">
@@ -108,10 +127,10 @@
                             </li>
                         </article>
                     </section>
-                    
                 </ul>
             </header>
         </section>  
     </main>
+    <script src="script/themeSwitch.js"></script>
 </body>
 </html>
