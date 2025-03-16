@@ -1,41 +1,28 @@
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 600px) {
     .main {
         display: flex;
-        flex-direction: column;
+        flex-direction: ;
         /* main layout flip*/
     }
 
 
     /* buttons layout flip*/
 
-    .mainNav {
-        display: flex;
-        flex-direction: column;
-
-    }
     .navButtons {
-        flex-direction: row;
-        display: flex;
-    }
-
-    .buttons {
-        margin: 0;
-        display: flex;
+        display: none !important;
         flex-direction: column;
-        flex-grow: 1;
-        justify-content: center;
-        background-color: #fbeee0;
-        border: 2px solid #42270066;
-        border-radius: 30px;
-        box-shadow: #42270066 4px 4px 0 0;
-        color: #42270066;
-        font-size: 18px;
-        touch-action: manipulation;
-        cursor: pointer;
+
     }
 
-    .button svg {
-        height: 65px;
-        margin: auto;
+    .dropDown {
+        display: block !important;
     }
+
+    
+}
+
+
+.dropDown {
+    display: none;
+
 }

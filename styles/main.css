@@ -1,6 +1,6 @@
 .mainPageBody {
     padding: 10px;
-
+    list-style: none;
 
 }
 
@@ -22,8 +22,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    height: 100%;
     padding: 10px;
     margin: 10px;
 }
@@ -46,6 +44,7 @@
     box-shadow: inset 10px 10px 10px transparent;
     box-shadow: inset 5px 5px 5px #42270066, inset -5px -5px 5px #42270066;
     display: flex;
+    flex-direction: column;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -63,12 +62,7 @@
 
 
 /* @media will assist with the compatibility on molibe devices, laptops and tablets */
-@media (min-width: 768px) {
-    .button-74 {
-        min-width: 120px;
-        padding: 0 25px;
-    }
-}
+
 
 .roundedSvg {
     border-radius: 50%;

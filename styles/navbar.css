@@ -7,7 +7,7 @@
     box-shadow: inset 5px 5px 5px #42270066, inset -5px -5px 5px #42270066;
     /*used https://hslpicker.com/ to soften the colour of the shadow (Very cool website)*/
     border-radius: 15px 0 0 15px;
-    size: 100%;
+
 
 }
 
@@ -21,7 +21,8 @@
     flex-direction: column;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    height: 80px;
+    padding: 5px;
+    /* height: 80px; */
 
     
 }
@@ -29,7 +30,7 @@
 .navButtons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 
@@ -42,9 +43,9 @@
     cursor: pointer;
     display: inline-block;
     padding: 4px 18px;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    margin-right: 2%;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    margin-right: 5px;
     line-height: 50px;
     text-align: center;
     text-decoration: none;
@@ -97,4 +98,9 @@
     -webkit-transition: background-color 4s ease-in;
     /* to support Safari */
     transition: background-color 4s ease-in;
+}
+
+.button svg {
+    height: 65px;
+    margin: auto;
 }
