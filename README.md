@@ -2,7 +2,7 @@
 
 # Responsive CV Website
 
-This is a simple, responsive CV website built using **HTML**, **CSS**, and **JavaScript**. The project demonstrates web design skills and showcases a professional online resume.
+This is a simple, responsive CV website built using **HTML**, **CSS**, and **JavaScript**. The project demonstrates some new web design features I discovered for my online resume.
 
 ## Features
 
@@ -25,20 +25,29 @@ This is a simple, responsive CV website built using **HTML**, **CSS**, and **Jav
 2. Open index.html in your browser to view the website.
 
 ## Folders and Files
-HTML:   about.html
-        contact.html
-        index.html
-        projects.html
-        skills.html
+*HTML:*   
+- about.html
+- contact.html
+- index.html
+- projects.html
+- skills.html
 
-styles: about.css
-        contact.css
-        main.css
-        projects.
-        reset.css
-        responsive.css
-        skills.css
-        themeSwitch.css  
+*styles:* 
+- about.css
+- contact.css
+- main.css
+- projects.css
+- reset.css
+- responsive.css
+- skills.css
+- themeSwitch.css 
+
+*javaScript:*     
+- themeSwitch.js
+- responsiveDropdown.js
+
+*txt:*
+- fix.txt (This file holds a few things I would like to work on✨)
 
 ## Contributing
 
