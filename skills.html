@@ -24,6 +24,7 @@
 <!--padding is the white space around your body/creation, this space is blank to create a better looking page--> 
 <body class="padding bodyCntr">
     <main class="main">
+        
     <!--Lets go. Creating boxes inside boxes now. MainNav is my navigation tab for my buttons for pages-->    
         <nav class="mainNav">
             <nav class="themeSwitch">
@@ -32,6 +33,7 @@
             </nav>
             <!-- <button class="themeSwitch"> I added this button under main to make it easier to place on the page -->
                 <!-- <i class="fa-solid fa-moon"></i> I have found i to use instead of img or svg. I almost prefer it a lot more and find it easier to use. -->             
+            
             <ul class="navButtons">
                 <li class="button">
                     <a href="index.html" class="button_img button--active"> <!--index is home-->
@@ -65,8 +67,11 @@
                 </li>           
             </ul>
             <button class="dropDown">
-                <i class="dropbtn" class="fa-solid fa-caret-down"></i>
-                    🐾
+                <i class="dropbtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill=#4e4141 class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </i>
                 <ul class="dropDown-content">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>

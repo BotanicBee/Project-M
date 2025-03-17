@@ -41,11 +41,10 @@
     --mainNav-shadow:#e99b2ec4;
     --pageFont-color: #d6b178;
     --button-bg: rgb(71, 71, 71);
-    --button-border: #b9b9b966;
+    --button-border: #4e4141;
     --button-shadow: #e99b2ec4;
-    --button-hover: #635e32; 
+    --button-hover: #4e4141bd; 
     
-
 }
 
 :root { /*This seperate root applies to everything and not just to an activated theme*/
@@ -68,8 +67,8 @@
     gap: 10px;
     cursor: pointer;
     position: absolute;
-    top: 30px; /*position absolute allows the switch to be placed anywhere on the page using top,right, bottom and left properties*/
-    left: 30px;
+    top: 15%; /*position absolute allows the switch to be placed anywhere on the page using top,right, bottom and left properties*/
+    left: 3%;
     outline-style: dashed;
     outline-color: #42280080;
     transition: var(--default-transition);
@@ -95,13 +94,16 @@
     z-index: 1; /*This is the z-index of the icon, meaning it is in front of the switch, making it visible*/
     transition: var(--default-transition);
     
+    
 }
 
 #iconPastel { /*# is for css on an ID in stead of a class!!!! AWESOME*/
-    color: var(--icon-pastel); /* the var will make the javascript a lot easier to code*/
+    color: var(--icon-pastel); /* the var in css will make the javascript a lot easier to code*/
+
 }
 
 
 #iconMoon {
     color: var(--icon-moon);
+  
 }

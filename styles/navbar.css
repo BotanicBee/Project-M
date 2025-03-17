@@ -1,29 +1,20 @@
-.navBar {
-
-    display: flex;
-    flex-direction: row;
-    background-color: var(--mainNav-color);
-    text-align: right; /* Finally found this. This will align the text to the right of the page*/
-    box-shadow: inset 5px 5px 5px var(--button-shadow), var(--button-shadow);
-    /*used https://hslpicker.com/ to soften the colour of the shadow (Very cool website)*/
-    border-radius: 15px 0 0 15px;
-
-
-}
-
-/*display: inline-block;*/
 .mainNav {
 
     background-color: var(--mainNav-color);
     display: flex;
-    flex-grow: initial;
-    align-items: end;  
+    justify-content: flex-end;
     box-shadow: inset 5px 5px 5px var(--bg-shadow), inset -5px -5px 5px var(--bg-shadow);
     /*used https://hslpicker.com/ to soften the colour of the shadow (Very cool website)*/
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    padding: 5px;
-    position: relative; /* This makes the dark mode toggle button display inside of the navbar */
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    position: relative;
+    /* This makes the dark mode toggle button display inside of the navbar */
+
+
 }
 
 .navButtons {
@@ -31,7 +22,10 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+
+
+
+
 }
 
 
@@ -42,8 +36,7 @@
     box-shadow: var(--button-shadow) 4px 4px 0 0;
     color: var(--button-bg);
     cursor: pointer;
-    display: inline-block;
-    padding: 4px 18px;
+    padding: 4px 10px;
     margin-top: 5px;
     margin-bottom: 7px;
     margin-right: 5px;
@@ -54,7 +47,9 @@
     user-select: none;
     /* this -select that follows specifies whether the text of an element can be selected or not*/
     -webkit-user-select: none;
-    touch-action: manipulation; 
+    touch-action: manipulation;
+
+
 }
 
 .button_img {
@@ -65,37 +60,18 @@
 
 .button:hover {
     background-color: var(--button-hover);
+    transition: background-color 0.7s ease-in;
 }
 
 .button:active {
     box-shadow: var(--button-shadow) 2px 2px 0 0;
     transform: translate(2px, 2px);
-    -webkit-transition: background-color 3s ease-in;
+    -webkit-transition: background-color 2s ease-in;
     /* to support Safari */
-    transition: background-color 3s ease-in;
-}
-
-
-
-.button_img {
-    position: relative;
-    text-decoration: none;
-
-}
-
-.button:active {
-    box-shadow: var(--button-shadow) 2px 2px 0 0;
-    transform: translate(2px, 2px);
-    -webkit-transition: background-color 4s ease-in;
-    /* to support Safari */
-    transition: background-color 4s ease-in;
+    transition: background-color 2s ease-in;
 }
 
 .button svg {
     height: 65px;
     margin: auto;
-}
-
-.dropDown-content {
-    display: none;   
 }
