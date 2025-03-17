@@ -24,13 +24,9 @@
     margin: 10px;
 }
 
-.header {
-    text-align: center;
-    font-size: 60px;
-}
 
 .padding {
-    padding: 4%;
+    padding: 25px;
 }
 
 .bodyCntr {
@@ -78,7 +74,17 @@
 /*This is the CSS for the Playfair Display font used on the paragraph*/
 .paragraph {
     text-decoration: none;
-    font-family: 'Playfair Display';
     font-size: 22px;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
+
+.header {
+    text-align: center;
+    font-size: 60px;
+}
+
+

@@ -1,4 +1,19 @@
-.button--active {
-    position: relative;
-    
-  }
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contactForm button {
+  border: none;
+  background-color: var(--button-bg);
+  transition-duration: 300;
+
+}
+.contactForm button:hover {
+  background-color: var(--button-hover);
+}

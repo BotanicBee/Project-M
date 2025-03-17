@@ -14,7 +14,6 @@
     position: relative;
     /* This makes the dark mode toggle button display inside of the navbar */
 
-
 }
 
 .navButtons {
@@ -22,9 +21,6 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-
-
-
 
 }
 
@@ -49,7 +45,6 @@
     -webkit-user-select: none;
     touch-action: manipulation;
 
-
 }
 
 .button_img {
@@ -61,6 +56,7 @@
 .button:hover {
     background-color: var(--button-hover);
     transition: background-color 0.7s ease-in;
+
 }
 
 .button:active {
@@ -69,9 +65,11 @@
     -webkit-transition: background-color 2s ease-in;
     /* to support Safari */
     transition: background-color 1s ease-in;
+
 }
 
 .button svg {
     height: 65px;
     margin: auto;
+    
 }

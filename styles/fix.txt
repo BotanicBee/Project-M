@@ -1,11 +1,15 @@
 Main to do
+1. CSS for fonts
+1.1 Can I put Image in dropdown?
+2. Update page info and add some CSS
 
-2. responsiveness
-3. javascript
-    game
+
+Lekker Side Project:
+ *game . javascript
+    Game- Cat theme dropdown dodge game in future    
 
 
-4. skills page
+
 
 contact to do
 1. find way to insert email or whatsapp button
@@ -14,27 +18,7 @@ theme.js file forjavascripts
     graphs
     some kind of table
 
-Detail
-
-2. Responsiveness on 
-    Nav row to dropdown or popup when @media
-3. javascript
-    Game- Cat theme dropdown dodge game in future
+Make .txt a .md
 
 
-Somewhere my links arent pulling through! This list must be on every page
-allong with its own link.
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/themeSwitch.css">
-    <link rel="stylesheet" href="styles/about.css">
-    <link rel="stylesheet" href="styles/contact.css">
-    <link rel="stylesheet" href="styles/skills.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/projects.css">
-    <link rel="stylesheet" href="styles/responsive.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <!--The last 3 links are for my Lobster font-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
