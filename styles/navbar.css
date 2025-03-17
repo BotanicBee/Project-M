@@ -13,7 +13,6 @@
     padding-left: 10px;
     position: relative;
     /* This makes the dark mode toggle button display inside of the navbar */
-
 }
 
 .navButtons {
@@ -21,13 +20,12 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-
 }
 
 
 .button {
     background-color: var(--button-bg);
-    border: 2px solid var(--button-border);
+    border: 1px solid var(--button-border);
     border-radius: 30px;
     box-shadow: var(--button-shadow) 4px 4px 0 0;
     color: var(--button-bg);
@@ -44,19 +42,16 @@
     /* this -select that follows specifies whether the text of an element can be selected or not*/
     -webkit-user-select: none;
     touch-action: manipulation;
-
 }
 
 .button_img {
     position: relative;
     text-decoration: none;
-
 }
 
 .button:hover {
     background-color: var(--button-hover);
     transition: background-color 0.7s ease-in;
-
 }
 
 .button:active {
@@ -65,11 +60,9 @@
     -webkit-transition: background-color 2s ease-in;
     /* to support Safari */
     transition: background-color 1s ease-in;
-
 }
 
 .button svg {
     height: 65px;
     margin: auto;
-    
 }

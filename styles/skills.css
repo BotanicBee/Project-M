@@ -1,9 +1,36 @@
-.skillsTitel{
-    fill: #422700;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 100%;
-    display: flex;
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Gruppo|Kumar+One+Outline|League+Script|Londrina+Outline|Monoton|Sriracha|Yellowtail&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789?+');
+
+.container {
+  list-style: none;
+  position: relative;
+}
+
+table {
+  /* This table-layout made the generral layout balance*/
+  table-layout: fixed;
+  width: 100%;
+}
+
+.timeLineYearCell {
+
+  text-align: right;
+  padding-right: 5vw;
+  border-style: dashed;
+  border: 10px dashed var(--button-shadow);
+  box-shadow: 3px 3px 7px var(--button-shadow);
+  font-family: Londrina Outline;
+}
+
+
+.timeLineYearCell p {
+  filter: none !important;
+  font-size: 4rem;
+}
+
+.timeLineInfoCell {
+  padding: 30px;
+}
+
+h2 {
+  padding-bottom: 50px;
 }

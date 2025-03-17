@@ -3,13 +3,9 @@ Main to do
 1.1 Can I put Image in dropdown?
 2. Update page info and add some CSS
 
-
 Lekker Side Project:
  *game . javascript
     Game- Cat theme dropdown dodge game in future    
-
-
-
 
 contact to do
 1. find way to insert email or whatsapp button

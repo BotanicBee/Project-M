@@ -1,6 +1,8 @@
 .contactForm {
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .contactForm input {
@@ -12,8 +14,8 @@
   border: none;
   background-color: var(--button-bg);
   transition-duration: 300;
-
 }
+
 .contactForm button:hover {
   background-color: var(--button-hover);
 }

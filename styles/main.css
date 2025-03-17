@@ -1,18 +1,17 @@
 .mainPageBody {
-    padding: 10%;
+    padding: 5%;
     list-style: none;
-
 }
 
 .mainPageHeader {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .mainPageInfo {
     display: flex;
     flex-direction: column;
-    
 }
 
 .homePage {
@@ -58,9 +57,7 @@
     font-style: normal;
     font-size: 30px;
     line-height: 1.2;
-    /* color: #422800; */
     color: var(--pageFont-color);
-
 }
 
 .facePhoto {
@@ -71,10 +68,10 @@
     margin-top: 30px;
 }
 
-/*This is the CSS for the Playfair Display font used on the paragraph*/
-.paragraph {
+/*This is the CSS for the Playfair Display font used on the mainFont*/
+.mainFont {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -84,7 +81,5 @@
 
 .header {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
 }
-
-

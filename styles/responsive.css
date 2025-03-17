@@ -8,12 +8,10 @@
 
     .mainNav {
         height: 80px;
-
     }
 
     .mainPageInfo {
         display: flex;
-
     }
 
     .themeSwitch {
@@ -31,9 +29,16 @@
     /* Show dropdown when screen is small */
     .dropDown {
         display: contents;
-        
     }
 
+    .timeLineYearCell p {
+        font-size: 3rem;
+    }
+
+    .timeLineInfoCell {
+        padding: 5px;
+        font-size: medium;
+    }
 }
 
 /*Only buttons need to be in media queries*/
@@ -42,16 +47,20 @@
 }
 
 .dropDown-content-active {
-    display: flex!important;
+    display: flex !important;
     flex-direction: column;
     justify-content: center;
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: var(--body-color);
     z-index: 3;
+}
+
+.dropbtn svg {
+    fill: var(--primary-text);
 }
 
 .dropDown--item {
@@ -62,7 +71,6 @@
 
 .dropbtn {
     padding-top: 2.5px;
-
 }
 
 .dropclosebtn {
