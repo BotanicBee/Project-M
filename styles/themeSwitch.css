@@ -96,7 +96,7 @@
     
 }
 
-#iconPastel { /*# is for css on an ID in stead of a class!!!!*/
+#iconPastel { /*# is for css on an ID in stead of a class!!!! AWESOME*/
     color: var(--icon-pastel); /* the var will make the javascript a lot easier to code*/
 }
 

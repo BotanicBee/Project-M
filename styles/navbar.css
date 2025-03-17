@@ -13,22 +13,21 @@
 
 /*display: inline-block;*/
 .mainNav {
+
     background-color: var(--mainNav-color);
     display: flex;
-    align-items: end;
+    flex-grow: initial;
+    align-items: end;  
     box-shadow: inset 5px 5px 5px var(--bg-shadow), inset -5px -5px 5px var(--bg-shadow);
     /*used https://hslpicker.com/ to soften the colour of the shadow (Very cool website)*/
-    flex-direction: column;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     padding: 5px;
     position: relative; /* This makes the dark mode toggle button display inside of the navbar */
-    /* height: 80px; */
-
-    
 }
 
 .navButtons {
+    text-decoration: none;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -95,4 +94,8 @@
 .button svg {
     height: 65px;
     margin: auto;
+}
+
+.dropDown-content {
+    display: none;   
 }

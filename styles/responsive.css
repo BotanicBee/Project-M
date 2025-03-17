@@ -1,25 +1,57 @@
-
-
-@media screen and (max-width: 600px) {
-    .main {
-        display: flex;
-        flex-direction: column;
-        /* main layout flip*/
-    }
-
-    @media (min-width: 640px) {
-        .button-74 {
-            padding: 0 25px;
-        }
-
-    .dropbtn {
-        list-style: none;
-
-    }
-    }
-
     /* buttons layout change for mobile*/
+.dropDown { /*This dropdown must not display untill the screen is viewed on smaller then 600px*/
+    display: flex;
+    display: none;
+}
 
+@media screen and (min-width:500px) {
+    .mainNav {  
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+
+    .mainPageInfo {
+        display: flex;
+        
+    }
+
+    .button {
+        display: flex;
+
+
+    }
+    .navButtons {
+        width: 100%;
+        display: none;
+    }
+
+    .dropDown {
+        display: flex;
+        display: none;
+    }
+
+    .dropDown--units a {
+        text-decoration: none;
+    }
+
+    /* .dropDown-content {
+        display:flex;
+        
+    }
+
+
+
+    .dropDown {
+    
+    }
+    
+    .dropDown--units {
+        text-decoration: none;
+    } */
+    
 
 
 

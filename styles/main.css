@@ -12,9 +12,7 @@
 .mainPageInfo {
     display: flex;
     flex-direction: column;
-
-    flex-direction: row;
-    justify-content: space-around;
+    
 }
 
 .homePage {
@@ -52,21 +50,6 @@
     transition: 0.8s;
 }
 
-/* I am adding a new navbar here, to change the look if the site to make it more modern and simplistic*/
-
-
-
-/* Im using @media here to make my navigation bar that is grey,
- only shrink to a specific size untill the screen is 500px or less */
-@media screen and (max-width: 500px) {
-    .mainNav {}
-}
-
-
-
-/* @media will assist with the compatibility on molibe devices, laptops and tablets */
-
-
 .roundedSvg {
     border-radius: 50%;
 }
@@ -81,7 +64,7 @@
     line-height: 1.2;
     /* color: #422800; */
     color: var(--pageFont-color);
-    
+
 }
 
 .facePhoto {
@@ -95,6 +78,7 @@
 /*This is the CSS for the Playfair Display font used on the paragraph*/
 .paragraph {
     text-decoration: none;
-    font-family: 'Playfair Display';font-size: 22px;
+    font-family: 'Playfair Display';
+    font-size: 22px;
     text-align: center;
 }
