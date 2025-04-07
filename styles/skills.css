@@ -3,9 +3,11 @@
 .container {
   list-style: none;
   position: relative;
+  margin-left: 5%;
+
 }
 
-table {
+table { /*I just leaned you can target an element directly like this*/
   /* This table-layout made the generral layout balance*/
   table-layout: fixed;
   width: 100%;
@@ -14,7 +16,7 @@ table {
 .timeLineYearCell {
 
   text-align: right;
-  padding-right: 5vw;
+  padding-right: 5vw; /*I am trying different size types to see how they react*/
   border-style: dashed;
   border: 10px dashed var(--button-shadow);
   box-shadow: 3px 3px 7px var(--button-shadow);

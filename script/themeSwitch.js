@@ -6,7 +6,7 @@ rootElm.setAttribute('data-theme',  localStorage.getItem('theme'));
 const switchTheme = () => {
 //fetching root elements and data-theme from css
 
-    const rootElm = document.documentElement; /*rootElm is documentElement*/
+    const rootElm = document.documentElement; /*rootElm is documentElement is */
     let dataTheme = rootElm.getAttribute('data-theme');
 
     const newTheme = (dataTheme === 'pastel') ? 'dark' : 'pastel'; /*usage of ? and : here- the ? means if the fist condition after the ? is true, activate, if not, activate ssecond condition.*/

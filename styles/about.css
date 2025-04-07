@@ -1,0 +1,39 @@
+  .items {
+    margin: 5%;
+  }
+  
+  .item {
+    background-image: linear-gradient(131.83deg, --bg-color 0%, --button-bg 99.21%);
+    text-align: center;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    display: table-row;
+    width: 1px;
+  }
+  
+  .item::before {
+    position: absolute;
+    content: "";
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background-image: linear-gradient(312.25deg, #FFC4BC 0%, rgba(255, 255, 255, 0) 66.19%);
+    z-index: -1;
+    border-radius: 18px;
+  }
+    .inner {
+    background-color: --pageFont-color;
+
+
+    height: 250px;
+    box-shadow: 0 40px 80px #FBE4E0;
+    border-radius: 14px;
+    display: table-cell;
+  }
+  
+  .cntTitle {
+    font-size: 48px;
+    margin: 0;
+  }
